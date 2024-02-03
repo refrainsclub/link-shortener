@@ -1,6 +1,7 @@
 {
   "name": "link-shortener",
   "version": "0.0.0",
+	"license": "MIT",
   "private": true,
   "scripts": {
     "deploy": "wrangler deploy",
