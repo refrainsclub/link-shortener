@@ -1,0 +1,25 @@
+{
+  "name": "link-shortener",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@airtable/blocks-testing": "^0.0.6",
+    "@cloudflare/workers-types": "^4.20240129.0",
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.4",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.4",
+    "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "airtable": "^0.12.2"
+  }
+}
