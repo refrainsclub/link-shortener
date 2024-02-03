@@ -1,5 +1,5 @@
 import Airtable from 'airtable';
-import { AirtableBase } from 'airtable/lib/airtable_base';
+import type { AirtableBase } from 'airtable/lib/airtable_base';
 
 export interface Env {
 	AIRTABLE_API_TOKEN: string;
